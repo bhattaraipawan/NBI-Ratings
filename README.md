@@ -10,7 +10,6 @@ The analysis examines reported deck, superstructure, and substructure condition 
 
 - `scripts/` and `run_all.py`: data preparation, screening, estimation, statistical inference, validation, and figure production.
 - `results/frozen/`: original archived numerical results and `SHA256SUMS.txt` for integrity verification.
-- `outputs/figures/`: archived research figures (the manuscript uses a selected subset with updated presentation).
 - `data/external/`: derived PRISM climate and metropolitan-boundary inputs with provenance.
 - `tests/`: synthetic unit tests.
 
@@ -38,9 +37,6 @@ The 2025 analysis retained 464,584 conventional bridges and identified 13 eligib
 
 The archived numerical outputs and input-manifest hashes were checked for integrity in this release; the raw-data pipeline has not been rerun as part of the repository cleanup.
 
-## Manuscript figures
-
-The manuscript figures correspond in subject to `Fig1_All_Border_Forest`, `Fig4_KSMO_RD`, `Fig5_KSMO_Robustness`, and `Fig7_Temporal_Replication`. The archived figure generator may use a simpler plotting layout than the final manuscript artwork; the numerical estimates and confidence intervals are the comparison standard. Additional figures are supporting analyses.
 
 ## License
 
