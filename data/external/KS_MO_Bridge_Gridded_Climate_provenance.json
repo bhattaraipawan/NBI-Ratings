@@ -1,0 +1,38 @@
+{
+  "dataset": "PRISM 1991-2020 30-year monthly/annual normals",
+  "resolution": "4 km (25m arc-second)",
+  "sampling": "PRISM grid cell containing projected bridge point; no spatial interpolation",
+  "year_basis": "1991-2020 climatological normal (the PRISM 2020 normal)",
+  "temp_conversion": "degrees F = degrees C * 9/5 + 32",
+  "precip_conversion": "inches = mm / 25.4",
+  "winter_weighting": "DJF = (Dec*31 + Jan*31 + Feb*28)/90 (non-leap climatological weighting)",
+  "freeze_thaw_days": "not computed; no daily normals used",
+  "bridge_count": 2887,
+  "archives": [
+    {
+      "url": "https://ftp.prism.oregonstate.edu/normals/us/4km/tmean/monthly/prism_tmean_us_25m_2020_avg_30y.zip",
+      "filename": "prism_tmean_us_25m_2020_avg_30y.zip",
+      "sha256": "e4c2069c7a9ef64635575811f1e67a7ebb119fb908f0395500ef2c13572fcdcc"
+    },
+    {
+      "url": "https://ftp.prism.oregonstate.edu/normals/us/4km/tmean/monthly/prism_tmean_us_25m_202012_avg_30y.zip",
+      "filename": "prism_tmean_us_25m_202012_avg_30y.zip",
+      "sha256": "5dff049327398e7fb8a3ec0f8372492b8e770b3f3e06a415f898056746da7d1c"
+    },
+    {
+      "url": "https://ftp.prism.oregonstate.edu/normals/us/4km/tmean/monthly/prism_tmean_us_25m_202001_avg_30y.zip",
+      "filename": "prism_tmean_us_25m_202001_avg_30y.zip",
+      "sha256": "72bd3e14f796b07cce1619ae3663be634d0f03654c77cff84208f22046295ddc"
+    },
+    {
+      "url": "https://ftp.prism.oregonstate.edu/normals/us/4km/tmean/monthly/prism_tmean_us_25m_202002_avg_30y.zip",
+      "filename": "prism_tmean_us_25m_202002_avg_30y.zip",
+      "sha256": "5fdfce8acd4a0174389c2d48a26e7d2cd548fc45d059c0391200819356f5818e"
+    },
+    {
+      "url": "https://ftp.prism.oregonstate.edu/normals/us/4km/ppt/monthly/prism_ppt_us_25m_2020_avg_30y.zip",
+      "filename": "prism_ppt_us_25m_2020_avg_30y.zip",
+      "sha256": "054ee0ea81f38eb2f4d4272b9a6c3905d0df1c0b92bb4e391ebc3f9901ce3246"
+    }
+  ]
+}

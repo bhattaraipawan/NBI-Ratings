@@ -1,0 +1,76 @@
+{
+  "inventory_year": 2025,
+  "primary_bandwidth_miles": 10,
+  "numeric_balance_variables": [
+    "age",
+    "log_adt",
+    "structure_length_m",
+    "max_span_m",
+    "deck_width_m"
+  ],
+  "core_categorical_balance_variables": [
+    "structure_kind_code",
+    "structure_type_code",
+    "functional_class_code",
+    "highway_system_code"
+  ],
+  "eligibility_separability_variables": {
+    "numeric": [
+      "age",
+      "log_adt",
+      "structure_length_m",
+      "max_span_m",
+      "deck_width_m"
+    ],
+    "categorical": [
+      "structure_kind_code",
+      "structure_type_code",
+      "functional_class_code",
+      "highway_system_code",
+      "design_load_code",
+      "owner_code",
+      "maintenance_code"
+    ]
+  },
+  "eligibility_rule_status": "frozen from submitted 2025 screening; retained to avoid post-outcome redefinition",
+  "physical_separability_variables": {
+    "numeric": [
+      "age",
+      "log_adt",
+      "structure_length_m",
+      "max_span_m",
+      "deck_width_m"
+    ],
+    "categorical": [
+      "structure_kind_code",
+      "structure_type_code",
+      "functional_class_code",
+      "highway_system_code",
+      "design_load_code"
+    ]
+  },
+  "institutional_separability_variables": {
+    "categorical": [
+      "owner_code",
+      "maintenance_code"
+    ]
+  },
+  "priority_thresholds": {
+    "high": {
+      "min_side_n": 200,
+      "mean_abs_smd_max": 0.25,
+      "eligibility_auc_max": 0.9,
+      "core_cat_mean_v_max": 0.5,
+      "coverage_min": 0.7
+    },
+    "secondary": {
+      "min_side_n": 100,
+      "mean_abs_smd_max": 0.35,
+      "eligibility_auc_max": 0.93,
+      "core_cat_mean_v_max": 0.6,
+      "coverage_min": 0.5
+    }
+  },
+  "screening_score_role": "ancillary only; original weights retained descriptively and not used to select a top outcome subset",
+  "outcome_used_in_screening": false
+}

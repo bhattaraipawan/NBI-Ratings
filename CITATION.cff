@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using these research results."
+title: "National Bridge Inventory state-border discontinuity analysis"
+type: software
+authors:
+  - family-names: Bhattarai
+    given-names: Pawan
+license: MIT
+keywords:
+  - National Bridge Inventory
+  - bridge condition rating
+  - geographic regression discontinuity
+  - reproducible research

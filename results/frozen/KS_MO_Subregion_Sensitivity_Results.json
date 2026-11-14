@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "source": "data/external/KS_MO_Border_Subregions.geojson",
+    "assignment": "nearest documented subregion line within each partition group"
+  },
+  "results": [
+    {
+      "group": "metro",
+      "label": "KC_metro",
+      "n_raw": 1826,
+      "n_a_raw": 805,
+      "n_b_raw": 1021,
+      "n": 1826,
+      "clusters": 9,
+      "k": 51,
+      "covariance": "HC3",
+      "inference_reference": "normal robust",
+      "estimate_a_minus_b": 0.38219719874220787,
+      "se": 0.07283978013735169,
+      "ci_low": 0.23943385303118256,
+      "ci_high": 0.5249605444532331,
+      "p_value": 1.545167788201542e-07,
+      "r_squared": 0.5023311280030012,
+      "df": null
+    },
+    {
+      "group": "metro",
+      "label": "nonmetro",
+      "n_raw": 1061,
+      "n_a_raw": 452,
+      "n_b_raw": 609,
+      "n": 1061,
+      "clusters": 10,
+      "k": 47,
+      "covariance": "cluster:nearest_border_segment_25km_exact",
+      "inference_reference": "t(9)",
+      "estimate_a_minus_b": 0.40635438530450946,
+      "se": 0.1514217535239978,
+      "ci_low": 0.06381458096673348,
+      "ci_high": 0.7488941896422854,
+      "p_value": 0.02505812701001165,
+      "r_squared": 0.519516385124831,
+      "df": 9
+    }
+  ]
+}

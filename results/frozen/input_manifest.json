@@ -1,0 +1,76 @@
+{
+  "inputs": [
+    {
+      "label": "FHWA 2023 NBI",
+      "path": "data/raw/2023HwyBridgesDelimitedAllStates.txt",
+      "bytes": 255294994,
+      "sha256": "524d267b51bba1a7cd760da345d1613c6c4d5ee74beda168fd0ae7f82d7a18d7",
+      "source": "https://www.fhwa.dot.gov/bridge/nbi/2023hwybronefiledel.zip",
+      "required": true
+    },
+    {
+      "label": "FHWA 2024 NBI",
+      "path": "data/raw/2024HwyBridgesDelimitedAllStates.txt",
+      "bytes": 255834947,
+      "sha256": "b1b3858f6a9e889b6f2966af55f24747f86c82a07aa08b1e20d7adb793b49796",
+      "source": "https://www.fhwa.dot.gov/bridge/nbi/2024hwybronefiledel.zip",
+      "required": true
+    },
+    {
+      "label": "FHWA 2025 NBI",
+      "path": "data/raw/2025HwyBridgesDelimitedAllStates.txt",
+      "bytes": 256436264,
+      "sha256": "b59233c65b78bab2f31c3ddda579d894d1b381164885eefa9179eeaf5f69a7f1",
+      "source": "https://www.fhwa.dot.gov/bridge/nbi/2025hwybronefiledel.zip",
+      "required": true
+    },
+    {
+      "label": "U.S. Census 2025 TIGER/Line States",
+      "path": "data/raw/tl_2025_us_state.zip",
+      "bytes": 9956072,
+      "sha256": "59a220888a8d9be8117c4fcd38f542bd02d81abf0d198c78113595ad540dd957",
+      "source": "https://www2.census.gov/geo/tiger/TIGER2025/STATE/tl_2025_us_state.zip",
+      "required": true
+    },
+    {
+      "label": "Bridge-level KS-MO climate normals",
+      "path": "data/external/KS_MO_Bridge_Gridded_Climate.csv",
+      "bytes": 122661,
+      "sha256": "6f5a9097a58cd592a5c42969edde2d9abfa4b979cf4d482a6cbe25152e90264e",
+      "source": "PRISM 1991-2020 4-km normals; see provenance file",
+      "required": false
+    },
+    {
+      "label": "PRISM climate provenance",
+      "path": "data/external/KS_MO_Bridge_Gridded_Climate_provenance.json",
+      "bytes": 1925,
+      "sha256": "c41e9c93853c8fc9cacb2063cbd237806c9ae1f4b2234bee4e39c5c644cbe193",
+      "source": "official PRISM raster download and sampling log",
+      "required": false
+    },
+    {
+      "label": "Census 2025 CBSA",
+      "path": "data/external/tl_2025_us_cbsa.zip",
+      "bytes": 34964000,
+      "sha256": "8b0424f077280caaa5e09442fd0b0aec32b3e8d7d5fa909988304663bc0a761d",
+      "source": "https://www2.census.gov/geo/tiger/TIGER2025/CBSA/tl_2025_us_cbsa.zip",
+      "required": false
+    },
+    {
+      "label": "Metro subregion provenance",
+      "path": "data/external/KS_MO_Subregion_Provenance.json",
+      "bytes": 526,
+      "sha256": "23f89f2c417e37bf375c39fdac0b41656d36c100e8b072ded9078ea3268a56b7",
+      "source": "Census 2025 TIGER CBSA and state geometry",
+      "required": false
+    },
+    {
+      "label": "KS-MO documented border subregions",
+      "path": "data/external/KS_MO_Border_Subregions.geojson",
+      "bytes": 115876,
+      "sha256": "484741094f74064052a817b2f9819e9f518f61eceb644c197381948f096184ce",
+      "source": "Census-derived geographic partition; see provenance JSON",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "kc_cbsa_code": "28140",
+  "metro_boundary_length_km": 204.892,
+  "nonmetro_boundary_length_km": 236.182,
+  "river_classification_status": "not available (requires externally verified hydrography)",
+  "geometry_source": "U.S. Census 2025 TIGER/Line state boundaries + CBSA",
+  "assignment_rule": "nearest boundary partition feature in EPSG:5070",
+  "cbsa_url": "https://www2.census.gov/geo/tiger/TIGER2025/CBSA/tl_2025_us_cbsa.zip",
+  "subregion_geojson": "KS_MO_Border_Subregions.geojson",
+  "river_lines_source": null
+}

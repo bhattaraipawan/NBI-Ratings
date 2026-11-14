@@ -1,0 +1,255 @@
+{
+  "passed": true,
+  "manuscript_ready": true,
+  "checks": [
+    {
+      "check": "required_files_present",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "all_eligible_borders_analyzed_exactly",
+      "passed": true,
+      "details": {
+        "eligible": [
+          "AL-MS",
+          "CT-MA",
+          "DE-MD",
+          "IA-NE",
+          "ID-MT",
+          "IN-KY",
+          "KS-MO",
+          "MA-RI",
+          "NC-VA",
+          "NE-SD",
+          "NJ-PA",
+          "OK-TX",
+          "OR-WA"
+        ],
+        "analyzed": [
+          "AL-MS",
+          "CT-MA",
+          "DE-MD",
+          "IA-NE",
+          "ID-MT",
+          "IN-KY",
+          "KS-MO",
+          "MA-RI",
+          "NC-VA",
+          "NE-SD",
+          "NJ-PA",
+          "OK-TX",
+          "OR-WA"
+        ]
+      }
+    },
+    {
+      "check": "primary_family_matches_eligible_count",
+      "passed": true,
+      "details": {
+        "eligible_n": 13,
+        "primary_n": 13
+      }
+    },
+    {
+      "check": "holm_adjustment_present",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "recency_holm_adjustment_present",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ksmo_available_for_detailed_case",
+      "passed": true,
+      "details": {
+        "eligible": [
+          "AL-MS",
+          "CT-MA",
+          "DE-MD",
+          "IA-NE",
+          "ID-MT",
+          "IN-KY",
+          "KS-MO",
+          "MA-RI",
+          "NC-VA",
+          "NE-SD",
+          "NJ-PA",
+          "OK-TX",
+          "OR-WA"
+        ]
+      }
+    },
+    {
+      "check": "submitted_eligibility_set_preserved",
+      "passed": true,
+      "details": {
+        "submitted": [
+          "AL-MS",
+          "CT-MA",
+          "DE-MD",
+          "IA-NE",
+          "ID-MT",
+          "IN-KY",
+          "KS-MO",
+          "MA-RI",
+          "NC-VA",
+          "NE-SD",
+          "NJ-PA",
+          "OK-TX",
+          "OR-WA"
+        ],
+        "revised": [
+          "AL-MS",
+          "CT-MA",
+          "DE-MD",
+          "IA-NE",
+          "ID-MT",
+          "IN-KY",
+          "KS-MO",
+          "MA-RI",
+          "NC-VA",
+          "NE-SD",
+          "NJ-PA",
+          "OK-TX",
+          "OR-WA"
+        ]
+      }
+    },
+    {
+      "check": "wild_cluster_bootstrap_t_used",
+      "passed": true,
+      "details": {
+        "p_value": 5.999880002399952e-05,
+        "observed_abs_t": 9.37511186994371,
+        "observed_cluster_se": 0.042774062939920816,
+        "method": "monte_carlo_rademacher_bootstrap_t",
+        "patterns": 50000,
+        "seed": 42,
+        "small_sample_correction": "G/(G-1) * (N-1)/(N-k)",
+        "bootstrap_abs_t_q95": 3.973250678469098
+      }
+    },
+    {
+      "check": "three_segment_definitions_tested",
+      "passed": true,
+      "details": [
+        {
+          "specification": "10-km border-segment definition",
+          "segment_definition": "segment_10km",
+          "n": 2887,
+          "clusters": 45,
+          "k": 76,
+          "covariance": "cluster:segment_10km",
+          "inference_reference": "t(44)",
+          "estimate_a_minus_b": 0.4112710807986104,
+          "se": 0.04608384782493891,
+          "ci_low": 0.31839518818662776,
+          "ci_high": 0.504146973410593,
+          "p_value": 1.978109299705447e-11,
+          "r_squared": 0.49870464556522676,
+          "df": 44
+        },
+        {
+          "specification": "25-km border-segment definition",
+          "segment_definition": "segment_25km",
+          "n": 2887,
+          "clusters": 18,
+          "k": 52,
+          "covariance": "cluster:segment_25km",
+          "inference_reference": "t(17)",
+          "estimate_a_minus_b": 0.40101162519369965,
+          "se": 0.042774062939919616,
+          "ci_low": 0.31076624087583454,
+          "ci_high": 0.49125700951156476,
+          "p_value": 3.952608935376948e-08,
+          "r_squared": 0.4929903977014337,
+          "df": 17
+        },
+        {
+          "specification": "50-km border-segment definition",
+          "segment_definition": "segment_50km",
+          "n": 2887,
+          "clusters": 9,
+          "k": 43,
+          "covariance": "HC3",
+          "inference_reference": "normal robust",
+          "estimate_a_minus_b": 0.4025479489155124,
+          "se": 0.06144806008897961,
+          "ci_low": 0.2821119642212592,
+          "ci_high": 0.5229839336097655,
+          "p_value": 5.714242510120984e-11,
+          "r_squared": 0.48925276227682546,
+          "df": null,
+          "wild_cluster_bootstrap_t": {
+            "p_value": 0.00390625,
+            "observed_abs_t": 7.899806303801458,
+            "observed_cluster_se": 0.05095668595339726,
+            "method": "exhaustive_rademacher_bootstrap_t",
+            "patterns": 512,
+            "seed": null,
+            "small_sample_correction": "G/(G-1) * (N-1)/(N-k)",
+            "bootstrap_abs_t_q95": 4.4807221848384415
+          },
+          "inference_note": "Use exhaustive restricted wild-cluster bootstrap-t for 50-km sensitivity; HC3 p-value is descriptive only."
+        }
+      ]
+    },
+    {
+      "check": "segment_definitions_change_cluster_structure",
+      "passed": true,
+      "details": {
+        "cluster_counts_10_25_50km": [
+          45,
+          18,
+          9
+        ]
+      }
+    },
+    {
+      "check": "50km_few_cluster_bootstrap",
+      "passed": true,
+      "details": {
+        "p_value": 0.00390625,
+        "observed_abs_t": 7.899806303801458,
+        "observed_cluster_se": 0.05095668595339726,
+        "method": "exhaustive_rademacher_bootstrap_t",
+        "patterns": 512,
+        "seed": null,
+        "small_sample_correction": "G/(G-1) * (N-1)/(N-k)",
+        "bootstrap_abs_t_q95": 4.4807221848384415
+      }
+    },
+    {
+      "check": "placebo_family_adjustment_present",
+      "passed": true,
+      "details": [
+        1.0,
+        1.0,
+        0.5038878585048037,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "check": "2023_2024_replication_present",
+      "passed": true,
+      "details": [
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "check": "climate_analysis_status",
+      "passed": true,
+      "details": {
+        "preferred_final_analysis": true,
+        "status": "bridge-level PRISM climate"
+      },
+      "warning": null
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "2025 AL-MS estimate",
+      "actual": -0.2561555563246486,
+      "manuscript": -0.256,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 CT-MA estimate",
+      "actual": -0.36646586674816,
+      "manuscript": -0.366,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 DE-MD estimate",
+      "actual": 0.2784041788839584,
+      "manuscript": 0.278,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 IA-NE estimate",
+      "actual": -0.6042748965336012,
+      "manuscript": -0.604,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 ID-MT estimate",
+      "actual": -0.2892259433927272,
+      "manuscript": -0.289,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 IN-KY estimate",
+      "actual": 0.6562020192290355,
+      "manuscript": 0.656,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 KS-MO estimate",
+      "actual": 0.4010116251936996,
+      "manuscript": 0.401,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 MA-RI estimate",
+      "actual": 0.4961936055629747,
+      "manuscript": 0.496,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 NC-VA estimate",
+      "actual": -0.1894924539474772,
+      "manuscript": -0.189,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 NE-SD estimate",
+      "actual": 0.8120745041859003,
+      "manuscript": 0.812,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 NJ-PA estimate",
+      "actual": 0.2390713258457856,
+      "manuscript": 0.239,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 OK-TX estimate",
+      "actual": 0.2086198309805564,
+      "manuscript": 0.209,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 OR-WA estimate",
+      "actual": -0.1668575240155334,
+      "manuscript": -0.167,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "MA-RI corrected Holm p",
+      "actual": 0.3125,
+      "manuscript": 0.3125,
+      "decimals": 4,
+      "passed": true
+    },
+    {
+      "name": "PRISM Bridge/traffic/recency adjusted estimate_a_minus_b",
+      "actual": 0.41534053281706673,
+      "manuscript": 0.415,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "PRISM Bridge/traffic/recency adjusted ci_low",
+      "actual": 0.3092519343631416,
+      "manuscript": 0.309,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "PRISM Bridge/traffic/recency adjusted ci_high",
+      "actual": 0.5214291312709919,
+      "manuscript": 0.521,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "PRISM Climate adjusted estimate_a_minus_b",
+      "actual": 0.4277247524538202,
+      "manuscript": 0.428,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "PRISM Climate adjusted ci_low",
+      "actual": 0.3159278004880241,
+      "manuscript": 0.316,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "PRISM Climate adjusted ci_high",
+      "actual": 0.5395217044196163,
+      "manuscript": 0.54,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "precipitation SMD",
+      "actual": 0.025908136538787967,
+      "manuscript": 0.026,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "KS\u2013MO precip difference mm",
+      "actual": 1.7528856879478099,
+      "manuscript": 1.8,
+      "decimals": 1,
+      "passed": true
+    },
+    {
+      "name": "KS\u2013MO winter difference Celsius",
+      "actual": 0.22420671713089824,
+      "manuscript": 0.22,
+      "decimals": 2,
+      "passed": true
+    },
+    {
+      "name": "2023 estimate_a_minus_b",
+      "actual": 0.2704652981684726,
+      "manuscript": 0.27,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2023 ci_low",
+      "actual": 0.15335133566343556,
+      "manuscript": 0.153,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2023 ci_high",
+      "actual": 0.3875792606735096,
+      "manuscript": 0.388,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2024 estimate_a_minus_b",
+      "actual": 0.2810633160196071,
+      "manuscript": 0.281,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2024 ci_low",
+      "actual": 0.17462178197161715,
+      "manuscript": 0.175,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2024 ci_high",
+      "actual": 0.38750485006759705,
+      "manuscript": 0.388,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 estimate_a_minus_b",
+      "actual": 0.40101162519369965,
+      "manuscript": 0.401,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 ci_low",
+      "actual": 0.31076624087583454,
+      "manuscript": 0.311,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "2025 ci_high",
+      "actual": 0.49125700951156476,
+      "manuscript": 0.491,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "pooled estimate_a_minus_b",
+      "actual": 0.3072219994985766,
+      "manuscript": 0.307,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "pooled ci_low",
+      "actual": 0.2107408408153868,
+      "manuscript": 0.211,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "pooled ci_high",
+      "actual": 0.4037031581817664,
+      "manuscript": 0.404,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "KC_metro estimate",
+      "actual": 0.38219719874220787,
+      "manuscript": 0.382,
+      "decimals": 3,
+      "passed": true
+    },
+    {
+      "name": "nonmetro estimate",
+      "actual": 0.40635438530450946,
+      "manuscript": 0.406,
+      "decimals": 3,
+      "passed": true
+    }
+  ],
+  "passed": 37,
+  "total": 37,
+  "full_climate_data": {
+    "records_10mi": 2887,
+    "climate_assignment": "bridge-coordinate gridded climate (PRISM or documented external source)",
+    "missing_climate_rows": 0,
+    "preferred_final_analysis": true,
+    "primary_climate_controls": [
+      "winter_djf_mean_temp_f",
+      "annual_precip_in"
+    ]
+  }
+}
